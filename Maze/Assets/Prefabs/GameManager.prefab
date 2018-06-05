@@ -1,0 +1,83 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1936334917309036}
+  m_IsPrefabParent: 1
+--- !u!1 &1936334917309036
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4594016357885634}
+  - component: {fileID: 114263015964701592}
+  - component: {fileID: 114889873133537466}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4594016357885634
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1936334917309036}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114263015964701592
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1936334917309036}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3e23c3f22de42044d91f61a7e484b107, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bombsInArsenal: 3
+--- !u!114 &114889873133537466
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1936334917309036}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 624d391be5f597a428454bdac4ea483e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  width: 8
+  height: 8
+  exitCount: 2
+  tunnelCount: 3
+  arsenalCount: 1
+  treasureCount: 1
+  floorTile: {fileID: 1191901711923422, guid: f377b10318d79b64c9611e77fc390ee4, type: 2}
+  wallVertical: {fileID: 1531720137446962, guid: b694fa30d89307a4f93fb0fdea307928,
+    type: 2}
+  wallHorizontal: {fileID: 1153033431692034, guid: 476b2e46713b983408d9e7a5f8d35113,
+    type: 2}
+  wallCorner: {fileID: 1765770448657578, guid: 6ffd9c1f0f673cb409b8044e4f6ae983, type: 2}
+  riverTile: {fileID: 1214382561407956, guid: f0dd39a650a0a924590b4cece7b6f282, type: 2}
+  tunnelTile: {fileID: 1759740622295424, guid: 00aee9b1aa54c7a4a93dc133c9832fd5, type: 2}
+  arsenal: {fileID: 1164752110855334, guid: 0fb8b6f18703870448da12d28edf147f, type: 2}
+  treasure: {fileID: 1974582230472606, guid: 50d17f542d380844094b2874eedbdfaf, type: 2}
+  player: {fileID: 1773099433797320, guid: 8e37e9d893f426f4898d21fd2cae5d9c, type: 2}
